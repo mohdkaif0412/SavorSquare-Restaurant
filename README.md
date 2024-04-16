@@ -1,12 +1,12 @@
 BootstrapProject1
 
- <h1 style="text-align:center;">bootstrap-project1---Restaurant Website</h1>
-  <br/>
-SavorSquare is a fully responsive Food & Drinks website,
-Responsive for all devices, build using HTML, CSS, and JavaScript
-This is my Firt Bootsrap-project
+<h1 style="text-align:center;">bootstrap-project1---Restaurant Website</h1>
+
+SavorSquare is a fully responsive Food & Drinks website, <br/>
+Responsive for all devices, build using HTML, CSS, and Bootstrap <br/>
+
 <br/>
-Author :- Mohd Kaif
+**Author :- Mohd Kaif**
 
 ## Demo Screenshots
 <img width="960" alt="Screenshot" src="https://github.com/Kaif0412/BigBite-Restaurant/assets/146923382/c36450dd-e48c-407b-b753-7f8415af3ec9">
@@ -28,7 +28,7 @@ sudo git clone https://github.com/codewithsadee/foodie.git
 git clone https://github.com/codewithsadee/foodie.git
 ```
 
-## 🔗 Links
+## Links
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)]()
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohdkaif0412/)
 [![twitter](https://img.shields.io/badge/TWITTER-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)]()
