@@ -23,8 +23,10 @@ ol{
 }
 /* variable define for colors*/
 :root{
-    --primary-color:rgb(131, 20, 39);
+    /* --primary-color:rgb(131, 20, 39); */
+    --primary-color:#2E8B57;
     --secondary-color:#43121d;
+
     --Third-color:#f98169;
     --white-color:#ffff;
     --text-color:#555;
