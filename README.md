@@ -1,12 +1,10 @@
 BootstrapProject1
-<div style="text-align:center;">
+
  # bootstrap-project1---Restaurant Website
   <br/>
 SavorSquare is a fully responsive Food & Drinks website,
 Responsive for all devices, build using HTML, CSS, and JavaScript
 This is my Firt Bootsrap-project
-</div>
-
 <br/>
 Author :- Mohd Kaif
 
