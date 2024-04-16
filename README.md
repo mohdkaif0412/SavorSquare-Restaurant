@@ -4,4 +4,4 @@ This is my Firt Bootsrap-project
 <br/>
 Author :- Mohd Kaif
 
-<img width="960" alt="Screenshot 2024-04-16 212057" src="https://github.com/Kaif0412/BigBite-Restaurant/assets/146923382/cc5049ca-97e6-48dc-8569-607afd4d5818">
+<img width="960" alt="Screenshot" src="https://github.com/Kaif0412/BigBite-Restaurant/assets/146923382/c36450dd-e48c-407b-b753-7f8415af3ec9">
