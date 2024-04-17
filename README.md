@@ -1,11 +1,9 @@
-## bootstrap-project---Restaurant Website
+## Bootstrap-project---Restaurant Website
 
 SavorSquare is a fully responsive Food & Drinks website, <br/>
 Responsive for all devices, build using HTML, CSS, and Bootstrap <br/>
 
-<br/>
-## Author :- Mohd Kaif
-<br/>
+## Author : [@MohdKaif](https://github.com/Kaif0412)
 
 ## live Demo :-
 Check out a live demo of the project [HERE](https://savorsquare-restaurant.netlify.app/)
@@ -30,6 +28,12 @@ git clone https://github.com/Kaif0412/SavorSquare-Restaurant
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/mohdkaif0412/)
 [![twitter](https://img.shields.io/badge/TWITTER-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)]()
 [![Instagram](https://img.shields.io/badge/Instagram-C13584?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/mohdkaif0412/?utm_source=qr)
+
+## Contributing :-
+Contributing are always welcome! Just raise an issue, we will discuss it.
+
+## Feedback :-
+If you have any feedback, please reach out to me [here](https://github.com/Kaif0412)
 
 ## License :-
 This project is free to use and does not contains any license.
