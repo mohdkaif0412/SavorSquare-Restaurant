@@ -1,6 +1,4 @@
-BootstrapProject1
-
-<h1 style="text-align:center;">bootstrap-project1---Restaurant Website</h1>
+## bootstrap-project---Restaurant Website
 
 SavorSquare is a fully responsive Food & Drinks website, <br/>
 Responsive for all devices, build using HTML, CSS, and Bootstrap <br/>
@@ -15,12 +13,8 @@ Check out a live demo of the project [HERE](https://savorsquare-restaurant.netli
 ## Demo Screenshots :- 
 <img width="960" alt="Screenshot" src="https://github.com/Kaif0412/BigBite-Restaurant/assets/146923382/c36450dd-e48c-407b-b753-7f8415af3ec9">
 
-## Prerequisites :- 
-Before you begin, ensure you have met the following requirements:
-Git must be installed on your operating system.
-
 ## Run Locally :-
-To run Foodie locally, run this command on your git bash:
+To run SavorSquare locally, run this command on your git bash:
 
 **Linux and macOS:**
 ``` bash  
