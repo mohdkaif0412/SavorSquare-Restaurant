@@ -8,7 +8,6 @@
 :active,:hover,:focus{
     outline: 0 !important;
     outline-offset: 0;
-
 }
 a , a:hover{
     text-decoration: none;
@@ -23,10 +22,8 @@ ol{
 }
 /* variable define for colors*/
 :root{
-    /* --primary-color:rgb(131, 20, 39); */
     --primary-color:#2E8B57;
     --secondary-color:#43121d;
-
     --Third-color:#f98169;
     --white-color:#ffff;
     --text-color:#555;
@@ -34,8 +31,6 @@ ol{
     --black-color:#000;
     --primary-font: 'Roboto','sans-sarif';
     --secondary-font: 'quicksand','sans-sarif';
-
-
 }
 html{
     scroll-behavior: smooth;
@@ -46,7 +41,11 @@ body{
     font-size: 100%;
     font-weight: 400;
 }
-/* custom scrollbar*/
+
+/* ------------------------------------------------- */
+/* --------------- custom scrollbar ----------------- */
+/* ------------------------------------------------- */
+
 ::-webkit-scrollbar{
     width: 0.625rem;
 }
@@ -154,6 +153,9 @@ p{
 .book-food-text h2{
     color: var(--white-color);
 }
+/* ------------------------------------------------- */
+/* --------------- custom scrollbar ----------------- */
+/* ------------------------------------------------- */
 
 /*  Header styling */
 .navigation-wrap{
@@ -199,28 +201,25 @@ p{
     transition: all 1.5 ease-in-out 0s;
 }
 
-/* --------------------------------------------
------------------------------------------------
-             -section1-top banner
-*/
+/* ------------------------------------------------- */
+/* -------------- Section1 Top-Banner ----------------- */
+/* ------------------------------------------------- */
+
 
 .top-banner{
     width: 100%;
     background-image: url(imgs/bg/bg-1.jpg) ;
-    
     background-position: center;
     background-repeat: no-repeat;
-    
     background-size: cover;
     padding: 14.87rem 0 9.375rem;
     
 }
 
-/* --------------------------------------------
-        -section2- Counter Design
------------------------------------------------
-          
-*/
+/* ------------------------------------------------- */
+/* ------------ Section2 Counter Design -------------- */
+/* ------------------------------------------------- */
+
 .counter-section{
     background-color: var(--primary-color);
     padding: 2.0rem 0;
@@ -231,11 +230,10 @@ p{
     text-transform: uppercase;
 }
 
-/* --------------------------------------------
-        -section3- About section
------------------------------------------------
-          
-*/
+/* ------------------------------------------------- */
+/* ------------ Section3 About section -------------- */
+/* ------------------------------------------------- */
+
 .about-section{
     background: var(--white-color);
 }
@@ -246,11 +244,11 @@ p{
 .about-section .text-sec{
    padding-left: 2rem;
 }
-/* --------------------------------------------
-        -Food type section design
------------------------------------------------
-          
-*/
+
+/* ------------------------------------------------- */
+/* ----------- Food Type Section Design ------------ */
+/* ------------------------------------------------- */
+
 .food-type{
     padding-top:7.25rem;
 }
@@ -267,7 +265,7 @@ p{
     color: var(--primary-color);
     font-size: 1.25rem;
     font-family: "font Awesome 5 free";
-    content: '\f00c';  /*we call font qwesome tick  code in content by this way*/
+    content: '\f00c'; 
     display: inline-block;
     padding-right: 3px;
     vertical-align: middle;
@@ -285,11 +283,10 @@ p{
     color: var(--primary-color);
 }
 
-/* --------------------------------------------
-        -Explore more section
------------------------------------------------
-          
-*/
+/* ------------------------------------------------- */
+/* ------------Explore more Section-------------- */
+/* ------------------------------------------------- */
+
 .explore-food .card{
 border: none;
 background: transparent;
@@ -315,29 +312,20 @@ border-radius: 0.9378rem;
 
 }
 
-
-/* --------------------------------------------
-        Testimonial section
------------------------------------------------
-          
-*/
+/* ------------------------------------------------- */
+/* ------------ Testimonial Section --------------- */
+/* ------------------------------------------------- */
 
 .testimonial-section{
   background-color: var(--primary-color);
 }
 .testimonial-section .carousel-item{
-    
     margin-top: 3rem;
     margin-left: 10rem;
-   
     padding : 10rem 3.125rem ;
-    
-
     background-color: var(--white-color);
     border-radius: 0.9375rem;
-    text-align: center;
-    
-    
+    text-align: center;   
 }
 
 .testimonial-section h2{
@@ -371,13 +359,10 @@ border-radius: 0.9378rem;
     opacity: 1;
 }
 
+/* ------------------------------------------------- */
+/* ------------------- FAQ Design ------------------ */
+/* ------------------------------------------------- */
 
-
-/* --------------------------------------------
-        Faq Design
------------------------------------------------
-          
-*/
 .faq-setion h4 span{
     color: var(--primary-color);
     font-size: 1.875rem;
@@ -392,11 +377,11 @@ border-radius: 0.9378rem;
     padding: 4.3715rem;
 
 }
-/* --------------------------------------------
-        Form control
------------------------------------------------
-          
-*/
+
+/* ------------------------------------------------- */
+/* ------------------- Form Control ---------------- */
+/* ------------------------------------------------- */
+
 .newsletter{
     width: 65%;
     margin: 0 auto;
@@ -420,11 +405,10 @@ border-radius: 0.9378rem;
      border-color: var(--primary-color);
 }
 
-/* --------------------------------------------
-        Form control
------------------------------------------------
-          
-*/
+/* ------------------------------------------------- */
+/* ---------------- Footer Section  ---------------- */
+/* ------------------------------------------------- */
+
 .footer{
     background-color: var(--primary-color);
 }
@@ -441,4 +425,87 @@ border-radius: 0.9378rem;
     font-size: 1.5rem;
     color: var(--white-color);
     padding: 0 1rem ;
+}
+
+
+
+
+/* ========================================================  */
+/* ===================== RESPONSIVE =======================  */
+/* ======================================================== */
+
+@media (max-width: 1024px){
+    /* about section*/
+}
+
+@media (max-width: 991px) {
+    /* ------------ custom classes ----------------*/
+    .text-content{
+        width: 100%;
+    }
+    
+    /* ------------- Navbar brand ------------------*/
+    .navigation-wrap .navbar-brand img{
+        height: 3.1825rem;
+    }
+    .navigation-wrap{
+        text-align: center;
+        background-color: var(--white-color);
+    }
+    .navigation-wrap .nav-link{
+        line-height: 1.875rem;
+    }
+
+    /* ------------------ banner design ---------------*/
+     .top-banner{
+        padding: 9.375rem 0 9.375rem;
+     }
+
+
+
+    /* --------------- carousel design ----------------*/
+    .testimonial-section .carousel-item .carousel-caption p{
+        padding: 0;
+    }
+}
+
+
+@media (max-width: 767px){
+    h1{
+        font-size: 2.8rem;
+    }
+    h2{
+        font-size: 2rem;
+        line-height: 2.0625rem;
+    }
+    .top-banner{
+        padding: 10.875rem 0 9.375rem;
+    }
+    .story-section{
+        height: auto;
+        padding: 3rem 0;
+    }
+    .testimonial-section .carousel-item {
+        padding: 11rem 3.125rem;
+
+    }
+    .newsletter{
+        width: 75%;
+    }
+
+    .newsletter .main-btn{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .footer .footer-link,
+    .footer a i{
+        padding: 0 0.7rem;
+    }
+
+}
+@media (max-width: 330px){
+    .testimonial-section .carousel-item{
+        padding: 13rem 3.125rem;
+    }
+
 }
